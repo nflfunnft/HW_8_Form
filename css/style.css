@@ -62,9 +62,9 @@ body {
     max-width: 440px;
     margin: 0 auto;
     padding: 28px;
-
     border-radius: 10px;
-    background: linear-gradient(#0e272e, #ccd3bf);
+    /* background: linear-gradient(#0e272e, #ccd3bf); */
+    background: var(--main-background);
 }
 
 .row {
@@ -74,9 +74,10 @@ body {
 .form__label {
     display: block;
     margin-bottom: 8px;
-    color: #f4eef4;
+    color: #1d1c1d;
 }
-.form__input, 
+
+.form__input,
 .form__select,
 .form__message {
     width: 100%;
@@ -84,6 +85,7 @@ body {
     padding: 4px 7px;
     border-radius: 8px;
 }
+
 .gender__label {
     margin-right: 20px;
 }

@@ -1,0 +1,89 @@
+@import url('./vars.css');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+ul,
+ol {
+    padding-left: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+html,
+body {
+    font-family: var(--main-font-family);
+    font-size: var(--main-font-size);
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.nav {
+    border-bottom: 1px solid #828282;
+    padding: 28px 15px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    padding-left: 0;
+    margin: 0 0;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #828282;
+    transition: all 0.3s;
+}
+
+.menu__link:hover {
+    color: #070707;
+}
+
+.title {
+    font-size: 1.4rem;
+    margin: 12px 0 50px;
+    color: rgb(51, 75, 110);
+}
+
+.form {
+    border: 1px solid #41a59c;
+    max-width: 440px;
+    margin: 0 auto;
+    padding: 28px;
+
+    border-radius: 10px;
+    background: linear-gradient(#0e272e, #ccd3bf);
+}
+
+.row {
+    margin-bottom: 24px;
+}
+
+.form__label {
+    display: block;
+    margin-bottom: 8px;
+    color: #f4eef4;
+}
+.form__input, 
+.form__select,
+.form__message {
+    width: 100%;
+    border: 1px solid #ffddff;
+    padding: 4px 7px;
+    border-radius: 8px;
+}
+.gender__label {
+    margin-right: 20px;
+}

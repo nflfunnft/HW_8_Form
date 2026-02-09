@@ -1,0 +1,6 @@
+:root {
+    --main-font-size: 18px;
+    --main-font-family: 'Open sans', sans-serif;
+    --main-background: linear-gradient(45deg, #82f0cb, #c6ccdd);
+    --main-text-color: #37505a;
+}
